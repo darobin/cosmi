@@ -1,0 +1,6 @@
+[submodule "vendor"]
+	path = vendor
+	url = git://github.com/extjs/Connect.git
+[submodule "vendor/connect"]
+	path = vendor/connect
+	url = git://github.com/extjs/Connect.git

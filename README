@@ -1,0 +1,6 @@
+
+set up
+	- node
+	- connect
+	- git submodule update --init
+
