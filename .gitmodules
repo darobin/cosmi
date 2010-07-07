@@ -10,3 +10,6 @@
 [submodule "vendor/template"]
 	path = vendor/template
 	url = git://github.com/darobin/template.git
+[submodule "vendor/mongoose"]
+	path = vendor/mongoose
+	url = git://github.com/LearnBoost/mongoose.git
