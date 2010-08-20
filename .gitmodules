@@ -6,7 +6,7 @@
 	url = git://github.com/extjs/Connect.git
 [submodule "vendor/underscore"]
 	path = vendor/underscore
-	url = git://github.com/documentcloud/underscore.git
+	url = git@github.com:darobin/underscore.git
 [submodule "vendor/template"]
 	path = vendor/template
 	url = git://github.com/darobin/template.git
