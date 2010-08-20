@@ -3,7 +3,7 @@
 	url = git://github.com/extjs/Connect.git
 [submodule "vendor/connect"]
 	path = vendor/connect
-	url = git://github.com/extjs/Connect.git
+	url = git://github.com/senchalabs/connect.git
 [submodule "vendor/underscore"]
 	path = vendor/underscore
 	url = git@github.com:darobin/underscore.git
