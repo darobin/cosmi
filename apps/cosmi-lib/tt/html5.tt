@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en' class='no-js'>
+  <head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <title>[% title %]</title>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'/>
+    <meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0;'/>
+    [% IF favicon %]<link rel='shortcut icon' href='/favicon.ico'/>[% END %]
+    [% IF appleTouchIcon %]<link rel='apple-touch-icon' href='/apple-touch-icon.png'/>[% END %]
+    [% FOREACH style IN styles %]
+      <link rel='stylesheet' href='[% style %]'/>
+    [% END %]
+    <script src='/static/cosmi-lib/js/modernizr-1.5.min.js'></script>
+  </head>
+  <body>
+    <div id='content'>
+      [% content %]
+    </div>
+  </body>
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
+  <script>!window.jQuery && document.write("<script src='/static/cosmi-lib/js/jquery-1.4.2.min.js'><\/script>")</script>
+   <!--[if lt IE 7 ]><script src='/static/cosmi-lib/js/dd_belatedpng.js?v=1'></script><![endif]-->
+   [% IF gAnalytics %]
+    <script>
+     var _gaq = [['_setAccount', '[% gAnalytics %]'], ['_trackPageview']];
+     (function(d, t) {
+      var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      g.async = true;
+      g.src = '//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g, s);
+     })(document, 'script');
+    </script>
+  [% END %]
+</html>

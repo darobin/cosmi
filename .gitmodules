@@ -13,3 +13,6 @@
 [submodule "vendor/mongoose"]
 	path = vendor/mongoose
 	url = git://github.com/LearnBoost/mongoose.git
+[submodule "vendor/spark"]
+	path = vendor/spark
+	url = git://github.com/senchalabs/spark.git

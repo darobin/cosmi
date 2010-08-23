@@ -2,5 +2,6 @@
 set up
 	- node
 	- connect
+	- spark
 	- git submodule update --init
 
